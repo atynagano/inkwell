@@ -105,7 +105,7 @@ macro_rules! assert_unique_used_features {
     }
 }
 
-assert_unique_used_features! {"llvm4-0", "llvm5-0", "llvm6-0", "llvm7-0", "llvm8-0", "llvm9-0", "llvm10-0", "llvm11-0", "llvm12-0", "llvm13-0", "llvm14-0", "llvm15-0"}
+assert_unique_used_features! {"llvm3-7", "llvm4-0", "llvm5-0", "llvm6-0", "llvm7-0", "llvm8-0", "llvm9-0", "llvm10-0", "llvm11-0", "llvm12-0", "llvm13-0", "llvm14-0", "llvm15-0"}
 
 /// Defines the address space in which a global will be inserted.
 ///
