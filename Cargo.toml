@@ -89,7 +89,7 @@ nightly = ["inkwell_internals/nightly"]
 either = "1.5"
 inkwell_internals = { path = "./internal_macros", version = "0.7.0" }
 libc = "0.2"
-llvm-sys-37 = { package = "llvm-sys", version = "37.3.0", optional = true }
+llvm-sys-37 = { package = "llvm-sys", version = "37.0.0", optional = true }
 llvm-sys-40 = { package = "llvm-sys", version = "40.4", optional = true }
 llvm-sys-50 = { package = "llvm-sys", version = "50.4", optional = true }
 llvm-sys-60 = { package = "llvm-sys", version = "60.6", optional = true }
